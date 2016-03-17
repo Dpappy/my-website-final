@@ -143,8 +143,8 @@ a:hover {
   background: -webkit: 
 }
 body {
-  background-image: url("../img/purpleBackgrounddesign.jpg");
-    background-size: cover;
+  background-image: url("../img/purpleBackgrounddesign.png");
+    background-size: 70%;
     background-repeat: repeat;
     background-position: fixed;
         }
