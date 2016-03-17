@@ -1,4 +1,4 @@
-$(function(){
+$(function(nav){
 
   var demo_configs=
   [
