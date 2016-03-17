@@ -160,6 +160,8 @@ p {
     
 }
 
+$("p").letterfx({"fx":"fly-right fly-bottom spin"});
+
 h1, nav {
     align-content: top;
     position:top;
