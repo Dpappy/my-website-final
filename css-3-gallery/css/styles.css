@@ -23,6 +23,7 @@ a:hover {
 
 
 li {
+    color:white;
   float: left;
   list-style: none;
   margin: 5px;
@@ -30,7 +31,7 @@ li {
 }
 a:link {
     
-   color: white;
+   font-color: white;
   border: 50px;
   display: inline;
   line-height: 50px;
