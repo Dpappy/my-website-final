@@ -12,7 +12,7 @@ main.header{
   
   margin: 0 auto;
   width: 100%; /*1000px/ 1000px=1 */
-    background-color: black;
+    background-color: #445;
     position: top;
 }
 
@@ -22,7 +22,9 @@ h1 {
     height: 50px;
     float:top;}
 
-h3 {background-color:black;
+h3 {
+    display:inline;
+    
 }
 
 .primary-content {
@@ -39,8 +41,7 @@ h3 {background-color:black;
     margin-left: 60px;
     width: 500px;
     padding: 50px ;
-        background-color: black;
-    height: 1200px;
+           height: 1200px;
     margin-right: 800px;
     margin-bottom: 50px;
 }
@@ -72,7 +73,10 @@ h2,h3 {font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align:left;
-        background-color:black;}
+     margin-top: 100px;
+   margin-right: 200px;
+    float:right;
+        }
 p 
 {
     font-family: 'Ubuntu', sans-serif;
@@ -81,7 +85,7 @@ p
     color:white;
   letter-spacing: 3px;
     text-align: left;
-  background:black;
+ 
   padding: 50px; /* 10px / 560px = 0.01785714285714 */
   margin: 100px 50px; /* 10px / 1000px = .01 */
   width: 30%; /* 560px / 1000px = .56 */
@@ -103,10 +107,10 @@ width: 600px;
  li  {
   float: left;
   list-style: none;
-    background-color:black;
+   
     color:white;
         padding: 5px;
-    align-content:top;
+    align-content:bottom;
 }
 
 
@@ -114,7 +118,7 @@ width: 600px;
 ul {
   float: left;
   list-style: none;
-    background-color:black;
+  
     color:white;
         
     align-content:top;
@@ -125,34 +129,38 @@ a:link {
    color: white;
   border: 50px;
   display: inline-block;
-  line-height: 50px;
+  line-height: 20px;
   text-align: center;
   text-decoration: none;
   margin: 3em;
   height: 50px;
   width: 100px;
-    background-color: black;
+    margin-top: 80px;
+    
 
 }
 
 a:hover {
   border-radius: 10px;
   
-  color: darkred;
+  color: sandybrown;
   transition: all .5s;
   background: -webkit: 
 }
 body {
-  background-image: url("../img/purpleBackgrounddesign.png");
-    background-size: 70%;
-    background-repeat: repeat;
-    background-position: fixed;
+  background-image: url("../img/webbackground1.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    
+    background-position: 70px 120px;
+    
+        
         }
 }
 p {
    font-family:
     color: white;
-    background: black;
+   
     border: none;
     padding: 50px;
     width: 200px;
@@ -195,7 +203,8 @@ width: 500px;
  
   position:top;
   width: 100%; /*1000px/ 1000px=1 */
-    background-color: black;
+    background-color: #446;
+    height: 160px;
 }
 
 input {
