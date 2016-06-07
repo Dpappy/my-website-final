@@ -23,7 +23,8 @@ h1 {
     float:top;}
 
 h3 {
-    display:inline;
+    display:inline-block;
+     
     
 }
 
