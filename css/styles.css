@@ -23,6 +23,8 @@ h1 {
     float:top;}
 
 h3 {background-color:black;
+    display:inline;
+    margin-top:100px;
 }
 
 .primary-content {
@@ -72,7 +74,7 @@ h2,h3 {font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align:left;
-        background-color:black;}
+        }
 p 
 {
     font-family: 'Ubuntu', sans-serif;
@@ -81,7 +83,7 @@ p
     color:white;
   letter-spacing: 3px;
     text-align: left;
-  background:black;
+ 
   padding: 50px; /* 10px / 560px = 0.01785714285714 */
   margin: 100px 50px; /* 10px / 1000px = .01 */
   width: 30%; /* 560px / 1000px = .56 */
@@ -103,7 +105,7 @@ width: 600px;
  li  {
   float: left;
   list-style: none;
-    background-color:black;
+   
     color:white;
         padding: 5px;
     align-content:top;
@@ -152,7 +154,7 @@ body {
 p {
    font-family:
     color: white;
-    background: black;
+   
     border: none;
     padding: 50px;
     width: 200px;
@@ -196,6 +198,7 @@ width: 500px;
   position:top;
   width: 100%; /*1000px/ 1000px=1 */
     background-color: #446;
+    height: 160px;
 }
 
 input {
