@@ -22,9 +22,9 @@ h1 {
     height: 50px;
     float:top;}
 
-h3 {background-color:black;
+h3 {
     display:inline;
-    margin-top:100px;
+    
 }
 
 .primary-content {
@@ -41,8 +41,7 @@ h3 {background-color:black;
     margin-left: 60px;
     width: 500px;
     padding: 50px ;
-        background-color: black;
-    height: 1200px;
+           height: 1200px;
     margin-right: 800px;
     margin-bottom: 50px;
 }
@@ -74,6 +73,9 @@ h2,h3 {font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align:left;
+     margin-top: 100px;
+   margin-right: 200px;
+    float:right;
         }
 p 
 {
@@ -108,7 +110,7 @@ width: 600px;
    
     color:white;
         padding: 5px;
-    align-content:top;
+    align-content:bottom;
 }
 
 
@@ -127,12 +129,13 @@ a:link {
    color: white;
   border: 50px;
   display: inline-block;
-  line-height: 50px;
+  line-height: 20px;
   text-align: center;
   text-decoration: none;
   margin: 3em;
   height: 50px;
   width: 100px;
+    margin-top: 80px;
     
 
 }
@@ -140,15 +143,18 @@ a:link {
 a:hover {
   border-radius: 10px;
   
-  color: lightyellow;
+  color: sandybrown;
   transition: all .5s;
   background: -webkit: 
 }
 body {
   background-image: url("../img/webbackground1.png");
-    background-size: 70%;
-    background-repeat: repeat;
-    background-position: fixed;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    
+    background-position: 70px 120px;
+    
+        
         }
 }
 p {
