@@ -159,7 +159,7 @@ body {
 }
 p {
    font-family:
-    color: white;
+    color: black;
    
     border: none;
     padding: 50px;
@@ -178,7 +178,7 @@ h1, nav {
 img {width:35%;
 
     align: left;
-    border: 70px solid black;
+    
     margin-top: 100px; 
     margin-left: 70px;
 }
